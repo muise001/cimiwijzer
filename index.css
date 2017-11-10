@@ -1,0 +1,89 @@
+@font-face {
+  font-family: gunhead;
+  src: url(gunhead.ttf);
+}
+
+html{
+  font-family: Futura
+}
+
+h1 {
+  font-family: gunhead;
+  font-size: 3em;
+  color: 	#333333
+}
+
+h4 {
+  font-family: Futura;
+  font-size: 1.5em;
+  color: 	#919195
+}
+
+body {
+display: block;
+margin: 0 auto;
+width: 50%;
+text-align: center;
+/*background-color: rgb(151,161,151);*/
+background-color: #ebeced;
+}
+
+.introtext {
+  background-color: #1e5da7;
+  color: #ebeced;
+  padding: 2em;
+  border-radius: 3em;
+}
+
+.introtext p {
+  text-align: left;
+}
+
+li {
+  text-align: left;
+}
+
+label, p {
+  color: 	#ebeced
+}
+
+.none {
+  display: none;
+}
+
+.vraag {
+  flex-direction: column;
+  padding: 1em;
+  background-color: #1e5da7;
+  border-radius: 3em;
+}
+
+.vraag label{
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+}
+
+.vraag footer{
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+label{
+  margin: 0 0 0.5em 2em
+}
+
+.uitleg p {
+    text-align: left;
+}
+
+b {
+  text-align: center;
+}
+
+h3 {
+  color: white;
+}

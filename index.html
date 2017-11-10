@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Crimi-Wijzer</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <section id="startMenu">
+    <h1>De Crimi-Wijzer</h1>
+    <h4 class="verdwijn">Want een '9 tot 5' mentaliteit is niet voor iedereen</h4>
+    <section class="verdwijn introtext">
+      <p class="verdwijn langetekst">Ben jij een crimineel of wil je een crimineel worden? Dan is dit <b>de</b> website voor jou!<br /> Met deze slimme carriere-wijzer geven we jou (meer) inzicht over welk pad je in moet slaan qua cariere. Meedoen gebeurt anoniem en we gebruiken geen
+        cookies, dus mocht je je nieuwe carriere een kans geven, dan ben je tot dit punt ontraceerbaar!</p>
+      <button class="verdwijn" type="button" name="button" value="Start" id="start">Let's do this</button>
+    </section>
+  </section>
+  <article class="vragen">
+    <div class="v1 none vraag">
+      <p>Hoeveel geld verdien je ongeveer per maand?</p>
+      <label for="a1"><input id="a1" type="radio" name="vermogen" value="" class="a">Veel minder dan € 2.855</label>
+      <!-- bron : http://www.gemiddeld-inkomen.nl/modaal-inkomen/ -->
+      <label for="a2"><input id="a2" type="radio" name="vermogen" value="" class="">Ongeveer € 2.855</label>
+      <label for="a3"><input id="a3" type="radio" name="vermogen" value="" class="b c f">Veel meer</label>
+      <footer>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v2 none vraag">
+      <p>Stel dat iemand je krimpt tot ongeveer de grootte van een potlood, en je vervolgens in een blender zou stoppen, hoe zou jij proberen te ontsnappen?</p>
+      <label for="a4"><input id="a4" type="radio" name="creatief" class="">Wat een gekke vraag</label>
+      <label for="a5"><input id="a5" type="radio" name="creatief" class="a b d e h i j">hmmm... zitten er ook wortels en appelschillen in zodat ik een ladder kan maken?</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v3 none vraag">
+      <p>Ben handig met gereedschap?</p>
+      <label for="a6"><input id="a6" type="radio" name="handig" class="a d e g j">Ja</label>
+      <label for="a7"><input id="a7" type="radio" name="handig" value="">Nee</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v4 none vraag">
+      <p>Hoe herken ik jou</p>
+      <label for="a11"><input id="a11" type="radio" name="intimidatie" class="c f g h i">Ik heb veel tattoo's</label>
+      <label for="a12"><input id="a12" type="radio" name="intimidatie" class="c f g h i">Ik draag vaak een petje in combinatie met een tasje</label>
+      <label for="a13"><input id="a13" type="radio" name="intimidatie" class="c f g h i">Ik kijk vaak boos</label>
+      <label for="a8"><input id="a8" type="radio" name="intimidatie" class="c f g h i">Vraag dat maar aan m'n biceps</label>
+      <label for="a14"><input id="a14" type="radio" name="intimidatie" value="">geen van bovenstaande</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v5 none vraag">
+      <p>Do you even lift?</p>
+      <label for="a15"><input id="a15" type="radio" name="lift" class="b c f g h j">ja</label>
+      <label for="a16"><input id="a16" type="radio" name="lift" class="a d e">nee</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v6 none vraag">
+      <p>Ben je hooggeleid</p>
+      <label for="a19"><input id="a19" type="radio" name="opleiding" class="b d f">Bedoel je hoogopgeleid?</label>
+      <label for="a21"><input id="a21" type="radio" name="opleiding" class="a e g">Nee</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v7 none vraag">
+      <p>Heb je ICT kennis?</p>
+      <label for="a20"><input id="a20" type="radio" name="ICT" class="b d">Ja</label>
+      <label for="a22"><input id="a22" type="radio" name="ICT" value="">Nee</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v8 none vraag">
+      <p>Ben je al langer dan 5 jaar in het bezit van een rijbewijs?</p>
+      <label for="a23"><input id="a23" type="radio" name="rijbewijs" class="c f g j">Ja</label>
+      <label for="a24"><input id="a24" type="radio" name="rijbewijs" value="">Nee</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v9 none vraag">
+      <p>Bedenk je vaak snode plannetjes</p>
+      <label for="a25"><input id="a25" type="radio" name="sluw" class="a d e h i j">Ja</label>
+      <label for="a26"><input id="a26" type="radio" name="sluw" value="">Nee</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v10 none vraag">
+      <p>Ben je een persoon die zich vaker op de voorgrond opstelt, of meer een achtergrond-type</p>
+      <label for="a27"><input id="a27" type="radio" name="profile" class="b h">Voorgrond</label>
+      <label for="a28"><input id="a28" type="radio" name="profile" class="a d e i">Achtergrond</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v11 none vraag">
+      <p>Heb je veel contacten of ben je snel te vinden op internet?</p>
+      <label for="a31"><input id="a31" type="radio" name="anoniem" class="">Ja</label>
+      <label for="a222"><input id="a222" type="radio" name="anoniem" class="a d e i">Nee, ik ben erg anoniem</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v12 none vraag">
+      <p>Ben je commercieel ingesteld</p>
+      <label for="a32"><input id="a32" type="radio" name="commercieel" class="b c i j">Ja</label>
+      <label for="a33"><input id="a33" type="radio" name="commercieel" class="">Niet echt</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v13 none vraag">
+      <p>Je bent op vakantie en zoekt al uren naar een hotel. Het hotel is vrij duur, wat doe je?</p>
+      <label for="a61"><input id="a61" type="radio" name="onderhandelen" class="b c i j">Ik neem m'n verlies en ga lekker slapen</label>
+      <label for="a62"><input id="a62" type="radio" name="onderhandelen" class="">Ik probeer met de medewerker van het hotel om samen tot een nieuwe prijs te komen</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v14 none vraag">
+      <p>Je wilt iets leuks gaan doen met vrienden, wie regelt het?</p>
+      <label for="a34"><input id="a34" type="radio" name="organisator" class="b c e f g h i">Ik</label>
+      <label for="a35"><input id="a35" type="radio" name="organisator" class="">M'n vrienden</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v15 none vraag">
+      <p>Heb je ooit met opzet iemand pijn gedaan zonder dat je je daarna schuldige voelde?</p>
+      <label for="a36"><input id="a36" type="radio" name="wreed" class="c g h i j">Ja</label>
+      <label for="a37"><input id="a37" type="radio" name="wreed" class="">Nee</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v16 none vraag">
+      <p>Ben je geduldig of ongeduldig?</p>
+      <label for="a50"><input id="a50" type="radio" name="organisator" class="b d e g j">Geduldig</label>
+      <label for="a51"><input id="a51" type="radio" name="organisator" class="a c f h">Ongeduldig</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v17 none vraag">
+      <p>Welk van onderstaande studie- en carriererichting spreekt jou het meest aan?</p>
+      <label for="a36"><input id="a36" type="radio" name="interest" class="e">landbouw / tuinieren</label>
+      <label for="a37"><input id="a37" type="radio" name="interest" class="c f g">logistiek</label>
+      <label for="a38"><input id="a38" type="radio" name="interest" class="b i">Boekhouding</label>
+      <label for="a39"><input id="a39" type="radio" name="interest" class="">geen van bovenstaande</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v18 none vraag">
+      <p>Heb je vaak mensen om je heen of ben je vaak alleen?</p>
+      <label for="a40"><input id="a40" type="radio" name="loner" class="d j">Vaak alleen</label>
+      <label for="a41"><input id="a41" type="radio" name="loner" class="">Nooit alleen</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" name="button">Volgende vraag</button>
+      </footer>
+    </div>
+    <div class="v18 none vraag">
+      <p>Heb je vrienden of familie met een strafblad?</p>
+      <label for="a70"><input id="a70" type="radio" name="loner" class="a h">Ja</label>
+      <label for="a71"><input id="a71" type="radio" name="loner" class="">Nee</label>
+      <footer>
+        <button type="button" class="vorige" name="button">Vorige vraag</button>
+        <button type="button" class="volgende" id="klaar" name="button">Toon resultaten</button>
+      </footer>
+    </div>
+    <div class="v18 none vraag">
+      <h2>Het resultaat</h2>
+      <section>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <h3>Kijk hieronder wat jou resultaat betekent</h5>
+          <section class="uitleg">
+            <p><b>Inbreker</b><br />Dit is een populair beroep in 2016 werd er bijna 600.000 keer ingebroken</p>
+            <p><b>Afperser</b><br />Voor dit beroep moet je nergens bang voor zijn, intimiderend overkomen en kunnen opkomen met creatieve oplossingen voor problemen. De bedoeling is dat je mensen chanteert, zodat ze je geld betalen.</p>
+            <p><b>Oplichter</b><br />Als oplichter moet je vrij anoniem zijn en moeilijk vinbaar. Als carierekeuzes heb jij er de meeste om nog tussen te kiezen. Denk aan; Heling, Flessentrekkerij en Muntmisdrijven.</p>
+            <p><b>Ontvoerder</b><br />Je moet veel geduld hebben bij deze baan, maar als je kans daar eindelijk is, dan moet je je stalen zenuwen onderdrukken en doen wat je op dat moment moet doen. (voor deze baan is het handig om een eigen auto te hebben of bevoegd te zijn om er een te huren)</p>
+            <p><b>Hennepkweker</b><br />In het begin is het een grote investering, maar ik garandeer je, dat als je het goed aanpakt, je bakken met geld verdient.</p>
+            <p><b>Cybercrimineel</b><br />Je bent goed met computers en internet. Niemand verwacht van jou dat je een crimineel bent. Zorg dat je je anonimiteit ten allen tijden beschermt.</p>
+            <p><b>Huurmoordenaar</b><br />Ook voor dit beroep heb je stalen zenuwen nodig, creativiteit, maar ook een beetje ICT-kennis. Je kan namelijk niet gaan flayeren om aan nieuwe klanten te komen</p>
+            <p><b>Drugshandelaar</b><br />Je moet veel vrije tijd hebben, omdat je elk moment opgeroepen kan worden. Je moet lange stukken rijden, maar met je salaris kan je makkelijk een autoradiootje kopen</p>
+            <p><b>Mensenhandelaar</b><br />Bij deze professie is het noodzakelijk om geen emoties te hebben/tonen. Je moet zowel een beetje kennis hebben van logistiek als boekhouding, maar naar aanleiding van deze test, geloof ik erin dat je het kan.</p>
+            <p><b>Witteboordencriminaliteit</b><br />Voor deze baan is het noodzakelijk dat je vanaf het begin al veel geld in bezit hebt, of investeerders hebt. Je moet moeilijke constructies verzinnen over hoe je zwart geld wit maakt</p>
+          </section>
+        </section>
+      </div>
+    </article>
+    <script src="index.js"></script>
+  </body>
+</html>
